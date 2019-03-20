@@ -23,7 +23,7 @@ https://boiling-brook-94902.herokuapp.com/transactions
 - In the end, you should only see transactions that match the active category AND the has a description that includes the text the user typed into the search bar.
 
 
-![example project](https://s3-us-west-2.amazonaws.com/curriculum-content/immersive_assessments/react-final-challenge.gif)
+![example project](public/demo.gif)
 
 Use the above gif as an example of how the app should function.
 
