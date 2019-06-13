@@ -43,7 +43,7 @@ You can approach this any way you would like but below is a reasonable approach 
 2) Render all transactions onto the table.
 3) Now that you are showing all transactions, focus on making the radio buttons work.
 4) Ensure that the user selecting a radio button renders only the transactions in the selected category (or render all transactions if the selected category is `'All'`).
-5) Build out the search bar as an additional feature, and only show transactions that have a description and includes the search term specified by the user.
+5) Build out the search bar. As the user types, only show transactions that have a description that includes the search term specified by the user. Make sure your radio button feature still works!
 
 ## Criteria
 
