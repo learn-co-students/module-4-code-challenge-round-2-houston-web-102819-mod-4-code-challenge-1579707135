@@ -41,7 +41,7 @@ You can approach this any way you would like but below is a reasonable approach 
 
 1) Get the list of Transactions to display on the page as JSON data from the API at this url: [https://boiling-brook-94902.herokuapp.com/transactions](https://boiling-brook-94902.herokuapp.com/transactions).
 2) Render all transactions onto the table.
-3) Now that you are showing all transactions, focus on making the radio buttons work.
+3) Now that you are showing all transactions, focus on making the radio buttons work. Radio is a type of form input `<input type="radio">`. If you're not familiar with them, look it up.
 4) Ensure that the user selecting a radio button renders only the transactions in the selected category (or render all transactions if the selected category is `'All'`).
 5) Build out the search bar. As the user types, only show transactions that have a description that includes the search term specified by the user. Make sure your radio button feature still works!
 
