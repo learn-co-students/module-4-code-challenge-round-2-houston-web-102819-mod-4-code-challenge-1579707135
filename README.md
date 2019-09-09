@@ -17,9 +17,9 @@ https://boiling-brook-94902.herokuapp.com/transactions
 
 **Please implement the following user stories:**
 - As a user, you should be able to see a table of transactions.
+- As a user, you should also be able to filter by description using the search bar.
 - As a user, you should be able select a radio button that toggles the active category.
 - You should only see transactions that match the active category or *all transactions* if "All" is selected
-- As a user, you should also be able to filter by description using the search bar.
 - In the end, you should only see transactions that match the active category AND the has a description that includes the text the user typed into the search bar.
 
 
