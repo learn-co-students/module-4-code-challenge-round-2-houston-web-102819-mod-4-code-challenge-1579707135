@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const CategoryField = (props) => {
-  const { category, checked } = props
+const CategoryField = props => {
+  const { category, checked } = props;
 
   return (
     <div className=" four wide field">
@@ -9,12 +9,13 @@ const CategoryField = (props) => {
         <input
           type="radio"
           name="category"
-          checked={ checked }
-        />
-        <label>{ category }</label>
+          checked={checked}
+          onClick={e => props.clicked(category)}
+        ></input>
+        <label>{category}</label>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default CategoryField
+export default CategoryField;

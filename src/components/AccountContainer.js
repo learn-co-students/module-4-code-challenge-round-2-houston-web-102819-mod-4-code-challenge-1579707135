@@ -1,17 +1,19 @@
 import React, { Component } from 'react'
 import TransactionsList from './TransactionsList'
-import CategorySelector from './CategorySelector'
-import Search from './Search'
+
+
 
 class AccountContainer extends Component {
+  
   render() {
     return (
       <div className="ui grid container">
-        <CategorySelector />
-        <Search />
-        <TransactionsList />
+       
+        {this.props.transactions.map(transaction => (
+          <TransactionsList transaction={transaction} />
+        ))}
       </div>
-    )
+    );
   }
 }
 

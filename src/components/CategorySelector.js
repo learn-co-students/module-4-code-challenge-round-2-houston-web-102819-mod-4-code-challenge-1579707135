@@ -8,6 +8,7 @@ const CategorySelector = (props) => {
       key={ i }
       checked={ category === props.activeCategory }
       category={ category }
+      clicked = {props.clicked}
     />)
 
   return (
